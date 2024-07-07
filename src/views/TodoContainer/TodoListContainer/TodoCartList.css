@@ -1,0 +1,75 @@
+.todo-list-component {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 35%;
+  left: 32%;
+  width: 36%;
+  border-radius: 5px;
+}
+
+.todo-list-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 60px;
+  padding: 0 15px;
+}
+.todo-list-footer p {
+  color: rgb(159, 161, 186);
+}
+.todo-list-footer .clear-completed-btn {
+  cursor: pointer;
+}
+.todo-list-footer .clear-completed-btn:hover {
+  color: hsl(220, 98%, 61%);
+}
+
+button {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin: 0 8px;
+  color: rgb(159, 161, 186);
+  cursor: pointer;
+  font-size: 14px;
+}
+button:hover {
+  color: hsl(220, 98%, 61%);
+}
+button:focus {
+  color: hsl(220, 98%, 61%);
+}
+
+.todo-list-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 570px) {
+  .todo-list-component {
+    left: 7.5%;
+    width: 85vw;
+    top: 21%;
+  }
+  .todo-list-filter {
+    position: absolute;
+    justify-content: center;
+    left: 0;
+    top: 80px;
+    height: 60px;
+    width: 100%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  }
+  .todo-list-filter button {
+    font-weight: bold;
+  }
+  p {
+    font-size: 12px;
+  }
+  .todo-list-filter-component {
+    display: flex !important;
+    padding: 0 60px;
+  }
+}/*# sourceMappingURL=TodoCartList.css.map */

@@ -1,0 +1,26 @@
+.todo-list-item {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.4px solid rgb(146, 145, 145);
+}
+.todo-list-item svg {
+  display: none;
+  position: absolute;
+  right: 20px;
+}
+.todo-list-item:hover svg {
+  display: block;
+}
+
+.todo-list-items::-webkit-scrollbar {
+  display: none;
+}
+
+.emptyList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(159, 161, 186);
+  height: 300px;
+}/*# sourceMappingURL=TodoList.css.map */

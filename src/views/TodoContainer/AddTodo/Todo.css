@@ -1,0 +1,40 @@
+.todo-container {
+  width: 36%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.todo-theme-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.todo-theme-header h1 {
+  color: rgb(254, 255, 253);
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
+}
+.todo-theme-header svg {
+  cursor: pointer;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 570px) {
+  .todo-container {
+    width: 85vw;
+    top: 10%;
+  }
+  .todo-theme-header {
+    margin-bottom: 10px;
+  }
+  .todo-theme-header h1 {
+    font-size: 1.8rem;
+    letter-spacing: 0.7rem;
+  }
+}/*# sourceMappingURL=Todo.css.map */
